@@ -1,0 +1,96 @@
+/* Reset cơ bản */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #fff7f0;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* HEADER */
+header {
+    background-color: #ffcccb;
+    text-align: center;
+    padding: 40px 20px;
+    border-bottom: 5px solid #ff7f7f;
+}
+
+header h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 1.2em;
+}
+
+/* NAV */
+nav {
+    background-color: #ff7f7f;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    flex-wrap: wrap;
+}
+
+nav ul li {
+    margin: 10px 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* SECTION */
+section {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+/* GALLERY */
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+}
+
+.gallery img {
+    width: 200px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 8px;
+    transition: transform 0.3s;
+}
+
+.gallery img:hover {
+    transform: scale(1.1);
+}
+
+/* VIDEO */
+video {
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+/* FOOTER */
+footer {
+    background-color: #ffcccb;
+    text-align: center;
+    padding: 20px;
+    border-top: 5px solid #ff7f7f;
+}
