@@ -1,1 +1,3 @@
 # thanhxuan12a2
+
+Một dự án nhỏ giúp tự động hóa việc...
